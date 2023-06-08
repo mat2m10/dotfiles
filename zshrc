@@ -1,8 +1,6 @@
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 
-export PATH= "/home/mat2m10/.aspera/connect"
-
 eval "$(pyenv init --path)"
 
 ZSH=$HOME/.oh-my-zsh
@@ -76,6 +74,7 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_traceexport BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
